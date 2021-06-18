@@ -1,3 +1,5 @@
+I use this fork to create an ML-model for luxembourgish. I added files to include the support for luxembourgish phonemes.
+
 num2words - Convert numbers to words in multiple languages
 ==========================================================
 

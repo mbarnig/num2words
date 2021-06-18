@@ -59,8 +59,6 @@ class Num2WordsFATest(TestCase):
         self.assertEqual(num2words(130000, lang='fa'), "صد و سی هزار")
         self.assertEqual(num2words(242, lang='fa'), "دویست و چهل و دو")
         
-        
-
     def test_ordinal_num(self):
         self.assertEqual(num2words(10, lang='fa', to='ordinal_num'), '10م')
         self.assertEqual(num2words(21, lang='fa', to='ordinal_num'), '21م')
